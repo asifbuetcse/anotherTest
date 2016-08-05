@@ -13,3 +13,4 @@ prepros.cfg
 .DS_Store
 composer.lock
 composer.phar
+/public/assets
