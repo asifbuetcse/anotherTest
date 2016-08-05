@@ -1,0 +1,15 @@
+/node_modules
+/public/assets/*
+!/public/assets/images/
+/public/uploads/
+/public/design
+/storage/debugbar
+/vendor
+.env
+.idea/
+*.log
+*.swp
+prepros.cfg
+.DS_Store
+composer.lock
+composer.phar
