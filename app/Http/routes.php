@@ -13,6 +13,7 @@
 
 Route::group(['namespace' => 'Web'], function () {
     Route::get('/', 'HomeController@index');
+    Route::get('/threads', 'ThreadController@index');
 });
 
 

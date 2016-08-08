@@ -1,8 +1,8 @@
 @extends('layouts.default')
 
 @section('content')
-<div ng-app='home'>
-	this is content from home index before ui-views
+<div ng-app='threads'>
+	this is content from threads index before ui-views
     <div class="main-content column-left" ui-view="left">
     </div>
     <div class="main-content detail-right" ui-view="main">
@@ -12,5 +12,5 @@
 
 
 @section('script')
-    {!! Html::script('/assets/angular/modules/home.js') !!}
+    {!! Html::script('/assets/angular/modules/threads.js') !!}
 @stop

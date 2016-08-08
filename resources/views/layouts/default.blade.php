@@ -3,6 +3,7 @@
 <head>
     @include('layouts.includes.styles')
     @include('layouts.includes.scripts')
+    <base href="/">
 </head>
 <body>
 	@include('layouts.includes.header')
