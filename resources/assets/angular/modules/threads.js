@@ -6,7 +6,7 @@ threads.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	$locationProvider.html5Mode(true);
 
 	$stateProvider.state('threads', {
-		url: '/',
+		url: '/threads',
 		views: {
 			'left@': {
 				template: 'this is left from threads',
@@ -14,9 +14,12 @@ threads.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 			'main@': {
 				template: 'this is main from threads'
 			},
+			'right@': {
+				template: 'this is right from threads'
+			}
 		},
 		controller: ['$scope', function ($scope) {
-            $scope.name = "World";
+            
         }],
 	});
 });

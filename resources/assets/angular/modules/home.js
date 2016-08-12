@@ -14,9 +14,12 @@ home.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 			'main@': {
 				template: 'this is main from home'
 			},
+			'right@': {
+				template: 'this is right from home'
+			}
 		},
 		controller: ['$scope', function ($scope) {
-            $scope.name = "World";
+            
         }],
 	});
 });

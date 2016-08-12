@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include('layouts.includes.styles')
-    @include('layouts.includes.scripts')
-    <base href="/">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  @include('layouts.includes.styles')
+  @include('layouts.includes.scripts')
+  <base href="/">
 </head>
 <body>
-	@include('layouts.includes.header')
-    @yield('content')
-    @include('layouts.includes.footer')
+ @include('layouts.includes.header')
+<div class="container-fluid text-center">
+  <div class="row content">
+  	@yield('content')
+  </div>
+</div>
+
+@include('layouts.includes.footer')
+
 </body>
 </html>
+
